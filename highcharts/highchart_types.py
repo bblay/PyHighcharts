@@ -269,6 +269,23 @@ PLOT_OPTION_ALLOWED_ARGS = {
 		"stacking": str,
 		"turboThreshold": int,
 	},
+	"boxplot": {
+		"allowPointSelect": bool,
+		"borderColor": str,
+		"borderWidth": int,
+		"center": list,
+		"ignoreHiddenPoint": bool,
+		"innerSize": int,
+		"lineWidth": int,
+		"marker": NotImplemented,
+		"pointPlacement": str,
+		"shadow": bool,
+		"size": (int,str),
+		"slicedOffset": int,
+		"startAngle": int,
+		"dataLabels": dict,
+		"showInLegend": bool
+	},
 }
 
 DATA_SERIES_ALLOWED_OPTIONS = {
